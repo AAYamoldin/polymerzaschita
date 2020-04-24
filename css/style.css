@@ -19,10 +19,15 @@
 
 .header-jumbotron {
     margin-top: 200px;
-    width: 60%;
+    width: 100%;
     max-width: 650px;
 }
 
+@media only screen and (max-height:800px ) {
+    .header-jumbotron {
+        margin-top: 100px;
+    }
+}
 
 .jumbotron-caparol {
 
@@ -92,9 +97,6 @@ body{
 }
 
 @media only screen and (min-width: 1000px) {
-    .first-desktop-section-header p{
-        
-    }
     .first-desktop-section-description p {
         font-size: 2vw;
     }
@@ -102,4 +104,27 @@ body{
 
 .first-desktop-section-description {
     padding: 35px ;
+}
+
+.second-desktop-section-header {
+}
+
+.second-desktop-section-header p{
+    color:white;
+}
+
+.second-desktop-section-contacts {
+    color: white;
+    text-align: center;
+}
+
+@media only screen and (max-width: 390px){
+    .second-desktop-section-header p{
+        font-size: 30px;
+    }
+}
+
+.map {
+    width: 100%;
+    margin-bottom: 32px;
 }
