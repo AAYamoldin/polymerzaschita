@@ -9,8 +9,8 @@
 <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="apple-touch-icon" sizes="57x57" href="images/favicon/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="images/favicon/apple-icon-60x60.png">
     <link rel="apple-touch-icon" sizes="72x72" href="images/favicon/apple-icon-72x72.png">
@@ -28,57 +28,99 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="images/favicon/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
+    <link href="https://fonts.googleapis.com/css?family=Manrope:700|Roboto:100,400&display=swap" rel="stylesheet">
     <title>Полимерзащита</title>
 </head>
 
 <body>
 
 <header>
-    <nav class=" my-nav navbar navbar-light navbar-expand-lg ">
-        <div class="container">
+    <nav class="my-nav navbar navbar-light navbar-expand-lg ">
 
-
-            <a class="navbar-brand" rel="home" href="#"><img src="images/no-logo.png" alt="logo of company" height="50px"> </a>
+            <div class="logo-image">
+                <a class="navbar-brand" rel="home" href="#"><img src="images/no-logo.png" alt="logo of company" height="50px"> </a>
+            </div>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
+            <div class="collapse navbar-collapse " id="navbarNav">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">Главная <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="#"><span class="header-link text-description">Главная</span> <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Услуги</a>
+                        <a class="nav-link" href="#"><span class="header-link text-description">Услуги</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Товары</a>
+                        <a class="nav-link" href="#"><span class="header-link text-description">Товары</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">О нас</a>
+                        <a class="nav-link" href="#"><span class="header-link text-description">О нас</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link " href="#">Контакты</a>
+                        <a class="nav-link " href="#"><span class="header-link text-description">Контакты</span></a>
                     </li>
                 </ul>
             </div>
-        </div>
     </nav>
 
-    <div id="carouselExampleIndicators" class="carousel slide my-carousel my-carousel" data-ride="carousel">
+    <div id="carouselExampleIndicators" class="carousel slide my-carousel my-carousel" data-ride="false">
         <ol class="carousel-indicators">
             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
         </ol>
         <div class="carousel-inner" role="listbox">
-            <div class="carousel-item active" style="background-image: url('images/banner-carousel-caparol.png')">
-
+            <div class="carousel-item active center-block" style="background-image: url('images/banner-carousel-caparol.png')">
+                <div class="jumbotron jumbotron-caparol header-jumbotron">
+                            <h1 class="display4 text-header">Заголовок продукции Caparol</h1>
+                                    <p class="lead text-description">Описание продукции caparol..........
+                                        .............................................
+                                        ..............
+                                        ..................
+                                        .............................
+                                        .............
+                                        .....................................
+                                        ...............
+                                        ......</p>
+                    <p class="lead text-description">
+                        <a class="btn btn-primary btn-lg" href="#" role="button">Узнать больше</a>
+                    </p>
+                </div>
             </div>
             <div class="carousel-item " style="background-image: url('images/banner-carousel-fasad.jpg')">
-
+                <div class="jumbotron jumbotron-fasad header-jumbotron">
+                    <h1 class="display4 text-header">Заголовок услуг</h1>
+                    <p class="lead text-description">Описание услуг..........
+                        .............................................
+                        ..............
+                        ..................
+                        .............................
+                        .............
+                        .....................................
+                        ...............
+                        ......</p>
+                    <p class="lead text-description">
+                        <a class="btn btn-primary btn-lg" href="#" role="button">Узнать больше</a>
+                    </p>
+                </div>
             </div>
-            <div class="carousel-item " style="background-image: url('images/banner-carousel-ruf.jpg')">
-
+            <div class="carousel-item "  style="background-image: url('images/banner-carousel-ruf.jpg')">
+                <div class="jumbotron jumbotron-roof header-jumbotron">
+                    <h1 class="display4 text-header">Заголовок о наших возможностях</h1>
+                    <p class="lead text-description">Описание наши возможности..........
+                        .............................................
+                        ..............
+                        ..................
+                        .............................
+                        .............
+                        .....................................
+                        ...............
+                        ......</p>
+                    <p class="lead text-description">
+                        <a class="btn btn-primary btn-lg" href="#" role="button">Узнать больше</a>
+                    </p>
+                </div>
             </div>
         </div>
         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -93,6 +135,19 @@
 
 
 </header>
+
+<main>
+    <div class="d-flex flex-column first-desktop-section">
+        <div class="first-desktop-section-header d-flex justify-content-center">
+            <p class="display-3 text-header">О нас</p>
+        </div>
+        <div class="first-desktop-section-description">
+            <p class="lead text-description">
+                Какой-то текст. Какой-то текст.Какой-то текст.Какой-то текст.Какой-то текст.Какой-то текст.Какой-то текст.Какой-то текст.Какой-то текст.Какой-то текст.Какой-то текст.Какой-то текст.Какой-то текст.Какой-то текст.Какой-то текст.Какой-то текст.Какой-то текст.Какой-то текст.Какой-то текст.Какой-то текст.Какой-то текст.Какой-то текст.Какой-то текст.Какой-то текст.Какой-то текст.Какой-то текст.Какой-то текст.
+            </p>
+        </div>
+    </div>
+</main>
 
 
 

@@ -1,7 +1,57 @@
+.nav-item{
+    text-align: right;
+}
+
+.text-header {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 700;
+}
+
+.text-description {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.font-additional {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+}
+
+.header-jumbotron {
+    margin-top: 200px;
+    width: 60%;
+    max-width: 650px;
+}
+
+
+.jumbotron-caparol {
+
+}
+
+.jumbotron-caparol p {
+    width: 100%;
+}
+
+.jumbotron-roof {
+    min-width: 320px;
+}
+
+
 .my-nav{
     position: absolute;
     z-index: 10;
     width: 100%;
+}
+
+.header-link{
+    background-color: rgba(218, 229, 226, 0.69);
+    font-size: 2vw;
+}
+
+@media only screen and (max-width: 990px){
+    .header-link {
+        font-size: 32px;
+    }
 }
 
 .carousel-item {
@@ -11,8 +61,42 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    padding-left: 10%;
+}
+
+.logo-image {
+    width: 40%;
+    height: 100px;
+}
+
+.logo-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.nav-item a {
+    margin-left: 20px;
 }
 
 body{
-    background-color: black;
+    background-color: #000000;
+}
+
+.first-desktop-section{
+    padding-top: 32px;
+}
+
+.first-desktop-section p {
+    color: white;
+}
+
+@media only screen and (min-width: 1000px) {
+    .first-desktop-section-description p {
+        font-size: 2vw;
+    }
+}
+
+.first-desktop-section-description {
+    padding: 35px ;
 }
