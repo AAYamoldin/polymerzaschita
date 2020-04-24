@@ -18,9 +18,10 @@
 }
 
 .header-jumbotron {
-    margin-top: 200px;
+    margin-top: 50%;
     width: 100%;
     max-width: 650px;
+    opacity: 0.7;
 }
 
 @media only screen and (max-height:800px ) {
