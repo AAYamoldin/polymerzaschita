@@ -92,6 +92,9 @@ body{
 }
 
 @media only screen and (min-width: 1000px) {
+    .first-desktop-section-header p{
+        
+    }
     .first-desktop-section-description p {
         font-size: 2vw;
     }
