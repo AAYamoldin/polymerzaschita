@@ -1,11 +1,6 @@
-<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<!------ Include the above in your HEAD tag ---------->
 
 <!DOCTYPE html>
 <html lang="ru" dir="ltr">
-
 <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
@@ -36,134 +31,147 @@
 
 <header>
     <nav class="my-nav navbar navbar-light navbar-expand-lg">
-
-            <div class="logo-image">
-                <a class="navbar-brand" rel="home" href="#"><img src="images/no-logo.png" alt="logo of company" height="50px"> </a>
+        <div class="container header-text">
+            <a class="navbar-brand" rel="home" href="#">
+           <div class="row d-none d-lg-block">
+               <div class="col">
+                   <p class="text-header">Общество с ограниченной ответсвенностью </p>
+               </div>
+           </div>
+            <div class="row d-sm-block">
+                <div class="col-sm-9">
+                    <p class="text-header">Полимерзащита-ВН</p>
+                </div>
             </div>
+            <div class="row d-none d-lg-block">
+                <div class="col">
+                    <p class="text-header">173008, г. Новгород, ул. Рабочая, д.51, тел (8162)99-88-35, +7960-205-10-85</p>
+                </div>
+            </div>
+        </a></div>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse " id="navbarNav">
+            <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#"><span class="header-link text-description">Главная</span> <span class="sr-only">(current)</span></a>
+                    <li class="nav-item active align-self-center">
+                        <a class="nav-link" href="#"><span class="header-link main-header-link-bkg text-description">Главная</span> <span class="sr-only">(current)</span></a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#"><span class="header-link text-description">Услуги</span></a>
+                    <li class="nav-item align-self-center">
+                        <a class="nav-link" href="#"><span class="header-link main-header-link-bkg text-description">Услуги</span></a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#"><span class="header-link text-description">Товары</span></a>
+                    <li class="nav-item align-self-center">
+                        <a class="nav-link" href="#"><span class="header-link main-header-link-bkg text-description">Товары</span></a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#"><span class="header-link text-description">О нас</span></a>
+                    <li class="nav-item align-self-center">
+                        <a class="nav-link" href="views/about.html"><span class="header-link main-header-link-bkg text-description">О нас</span></a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link " href="#contacts"><span class="header-link text-description">Контакты</span></a>
+                    <li class="nav-item align-self-center">
+                        <a class="nav-link contacts" href="#contacts"><span class="header-link main-header-link-bkg text-description">Контакты</span></a>
                     </li>
                 </ul>
             </div>
     </nav>
 
-    <div id="carouselExampleIndicators" class="carousel slide my-carousel my-carousel" data-ride="carousel">
-        <ol class="carousel-indicators">
-            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner" role="listbox">
-            <div class="carousel-item active center-block" style="background-image: url('images/banner-carousel-caparol.png')">
-                <div class=" d-flex flex-column jumbotron jumbotron-caparol header-jumbotron">
-                            <h1 class="display4 text-header">Заголовок продукции Caparol</h1>
-                                    <p class="lead text-description">Описание продукции caparol..........
-                                        .............................................
-                                        ..............
-                                        ..................
-                                        .............................
-                                        .............
-                                        .....................................
-                                        ...............
-                                        ......</p>
-                    <p class="lead text-description">
-                        <a class="btn btn-primary btn-lg" href="#" role="button">Узнать больше</a>
-                    </p>
-                </div>
-            </div>
-            <div class="carousel-item  center-block" style="background-image: url('images/banner-carousel-fasad.jpg')">
-                <div class="jumbotron jumbotron-fasad header-jumbotron">
-                    <h1 class="display4 text-header">Заголовок услуг</h1>
-                    <p class="lead text-description">Описание услуг..........
-                        .............................................
-                        ..............
-                        ..................
-                        .............................
-                        .............
-                        .....................................
-                        ...............
-                        ......</p>
-                    <p class="lead text-description">
-                        <a class="btn btn-primary btn-lg" href="#" role="button">Узнать больше</a>
-                    </p>
-                </div>
-            </div>
-            <div class="carousel-item  center-block"  style="background-image: url('images/banner-carousel-ruf.jpg')">
-                <div class="jumbotron  header-jumbotron">
-                    <h1 class="display4 text-header">Заголовок о наших возможностях</h1>
-                    <p class="lead text-description">Описание наши возможности..........
-                        .............................................
-                        ..............
-                        ..................
-                        .............................
-                        .............
-                        .....................................
-                        ...............
-                        ......</p>
-                    <p class="lead text-description">
-                        <a class="btn btn-primary btn-lg" href="#" role="button">Узнать больше</a>
-                    </p>
-                </div>
-            </div>
-        </div>
-        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-        </a>
-    </div>
 
 
 </header>
+<div id="carouselExampleIndicators" class="carousel slide my-carousel my-carousel" data-ride="carousel">
+    <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner" role="listbox">
+        <div class="carousel-item active center-block" style="background-image: url('images/banner-carousel-caparol.png')">
+            <div class=" d-flex flex-column jumbotron jumbotron-caparol header-jumbotron">
+                <h1 class="display4 text-header">Заголовок продукции Caparol</h1>
+                <p class="lead text-description">Описание продукции caparol..........
+                    .............................................
+                    ..............
+                    ..................
+                    .............................
+                    .............
+                    .....................................
+                    ...............
+                    ......</p>
+                <p class="lead text-description">
+                    <a class="btn btn-primary btn-lg" href="#" role="button">Узнать больше</a>
+                </p>
+            </div>
+        </div>
+        <div class="carousel-item  center-block" style="background-image: url('images/banner-carousel-fasad.jpg')">
+            <div class="jumbotron jumbotron-fasad header-jumbotron">
+                <h1 class="display4 text-header">Заголовок услуг</h1>
+                <p class="lead text-description">Описание услуг..........
+                    .............................................
+                    ..............
+                    ..................
+                    .............................
+                    .............
+                    .....................................
+                    ...............
+                    ......</p>
+                <p class="lead text-description">
+                    <a class="btn btn-primary btn-lg" href="#" role="button">Узнать больше</a>
+                </p>
+            </div>
+        </div>
+        <div class="carousel-item  center-block"  style="background-image: url('images/banner-carousel-ruf.jpg')">
+            <div class="jumbotron  header-jumbotron">
+                <h1 class="display4 text-header">Заголовок о наших возможностях</h1>
+                <p class="lead text-description">Описание наши возможности..........
+                    .............................................
+                    ..............
+                    ..................
+                    .............................
+                    .............
+                    .....................................
+                    ...............
+                    ......</p>
+                <p class="lead text-description">
+                    <a class="btn btn-primary btn-lg" href="#" role="button">Узнать больше</a>
+                </p>
+            </div>
+        </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</div>
 
 <main>
-    <div class="d-flex flex-column first-desktop-section">
+    <div class="d-flex flex-column first-desktop-section" style="background-color: black">
         <div class="first-desktop-section-header d-flex justify-content-center">
             <p class="display-3 text-header">О нас</p>
         </div>
         <div class="first-desktop-section-description">
             <p class="lead text-description">
-                 Какой-то текст.  Какой-то текст. Какой-то текст. Какой-то текст. Какой-то текст. Какой-то текст. Какой-то текст. Какой-то текст. Какой-то текст.
-                Какой-то текст. Какой-то текст. Какой-то текст. Какой-то текст. Какой-то текст. Какой-то текст. Какой-то текст. Какой-то текст. Какой-то текст.
-                Какой-то текст. Какой-то текст. Какой-то текст. Какой-то текст. Какой-то текст. Какой-то текст. Какой-то текст. Какой-то текст. Какой-то текст.
-                Какой-то текст. Какой-то текст. Какой-то текст. Какой-то текст. Какой-то текст. Какой-то текст. Какой-то текст. Какой-то текст. Какой-то текст.
-                Какой-то текст. Какой-то текст. Какой-то текст. Какой-то текст. Какой-то текст. Какой-то текст. Какой-то текст. Какой-то текст. Какой-то текст.
-                Какой-то текст. Какой-то текст. Какой-то текст. Какой-то текст. Какой-то текст. Какой-то текст. Какой-то текст.
-            </p>
+                Строительная компания ООО «Полимерзащита -ВН» была организована 21.01.2015г. и является правоприемником строительной компании ООО «Полимерзащита», образованной  в 1998 году и работавшей  на рынке строительных услуг.
+                На сегодняшний день мы готовы предложить Вам свои услуги по капитальному ремонту кровель гражданских, производственных и специализированных зданий и сооружений, а также все виды строительных работ  по ремонту зданий и помещений, ремонту сетей водопровода и канализации, электромонтажные работы, выполнить отделочные работы любой сложности, включая ремонт и окраску  фасадов многоэтажных домов и производственных зданий.
+                <button type="button" class="btn btn-link">
+                    <a class="first-desktop-section-button-text" href="views/about.html">Читать далее</a>
+                </button>
         </div>
     </div>
-    <div class="d-flex flex-column second-desktop-section">
+
+    <div class="d-flex flex-column second-desktop-section" style="background-color: black">
         <div class="second-desktop-section-header d-inline-flex justify-content-center" id="contacts">
             <p class="display-3 text-header">Контакты</p>
         </div>
         <div class="second-desktop-section-description d-flex flex-column justify-content-center">
             <div class="map">
-                <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A24edf08245187945a8f52e53e306b482b7069f7a18cefc095fbda6fdff6ecd40&amp;width=auto&amp;height=540&amp;lang=ru_RU&amp;scroll=true"></script>            </div>
-            <div class="second-desktop-section-contacts justify-content-center">
+                <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A24edf08245187945a8f52e53e306b482b7069f7a18cefc095fbda6fdff6ecd40&amp;width=auto&amp;height=540&amp;lang=ru_RU&amp;scroll=true"></script></div>
+            <div class="second-desktop-section-contacts justify-content-center first-desktop-section-description">
                 <p class="lead text-description">Мы работаем: пн-пт, 08:00 - 18:00</p>
-                <p class="lead text-description">По адресу: город Великий Новгород, Рабочая улица, 51</p>
-                <p class="lead text-description">Связаться с нами можно по телефону: +79052908835</p>
-                <p class="lead text-description">Или написать по электронной почте: <a href="#">pochta@yandex.ru</a> </p>
+                <p class="lead text-description">По адресу:<a href="https://yandex.ru/maps/24/veliky-novgorod/?utm_medium=mapframe&utm_source=maps"> город Великий Новгород, Рабочая улица, 51</a></p>
+                <p class="lead text-description">Связаться с нами можно по телефону: <a href="tel:+79052908835">+79052908835</a> </p>
+                <p class="lead text-description">Или написать по электронной почте: <a href="mailto:yamold@yandex.ru" target="_blank" rel="noopener noreferrer">yamold@yandex.ru</a> </p>
             </div>
         </div>
     </div>
@@ -171,8 +179,8 @@
 
 
 </body>
-<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script src="js/vendor/jquery-3.4.1.slim.min.js"></script>
+<script src="js/vendor/popper.min.js"></script>
+<script src="js/vendor/bootstrap.min.js"></script>
 <script src="support.js"></script>
 </html>
