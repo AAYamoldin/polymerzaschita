@@ -96,7 +96,7 @@ body{
     padding-top: 32px;
 }
 
-.first-desktop-section p {
+.first-desktop-section p, li {
     color: white;
 }
 
